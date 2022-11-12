@@ -1,0 +1,10 @@
+@import "../../Variables/variables.scss";
+
+.header {
+  height: 300px;
+  position: absolute;
+  z-index: 7;
+  width: 100%;
+  background-color: $darkBlueColor;
+  clip-path: polygon(100% 0, 100% 100px, 50% 100%, 0% 100px, 0 0);
+}

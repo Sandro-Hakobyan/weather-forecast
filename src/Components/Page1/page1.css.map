@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "sources": [
+        "../../Variables/variables.scss",
+        "page1.scss",
+        "page1.css"
+    ],
+    "names": [],
+    "mappings": "AAAQ,iGAAA;AACA,gGAAA;AACA,sFAAA;ACAR;EACI,UAAA;EACA,cAAA;EACA,WAAA;EACA,UAAA;EACA,SAAA;ACEJ;;ADAA;EACI,kEAAA;UAAA,0DAAA;ACGJ;;ADAA;EACI,sEAAA;UAAA,8DAAA;ACGJ",
+    "file": "page1.css"
+}

@@ -1,0 +1,65 @@
+@import '../../../Variables/variables.scss';
+
+.search{
+    background-color: $blueColor;
+    opacity:1;
+    position: relative;
+  }
+
+
+  .search-form {
+    position: relative;
+    top: 53%;
+    left: 50%;
+    width: 400px;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    transition: all 0.3s ease;
+  
+    &.focus {
+      box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    }
+  }
+  .search-input {
+    position: absolute;
+    top: 12px;
+    left: 23px;
+    font-family: $font2;
+    font-size: 18px;
+    background: none;
+    color: #5a6674;
+    width: 330px;
+    height: 25px;
+    border: none;
+    appearance: none;
+    outline: none;
+  
+    &::-webkit-search-cancel-button {
+      appearance: none;
+    }
+  }
+
+  .search-button {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    height: 25px;
+    width: 25px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none!important;
+    cursor: pointer;
+  }
+  .error{
+    position: absolute;
+    top: 770px;
+    left: 27%;
+    color: White;
+    font-family: $font2 ;
+    font-size: 120%;
+  }

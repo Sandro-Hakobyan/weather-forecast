@@ -1,0 +1,50 @@
+@import "../../Variables/variables.scss";
+
+.page3 {
+  @include pageStyle(2100px, $pinkColor);
+}
+.imageDiv1 {
+  filter: drop-shadow(8px 8px 4px $lightPurpleColor);
+}
+.image2 {
+  position: absolute;
+  top: 250px;
+  right: 12.5%;
+  width: 37%;
+  height: 700px;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.sideText2 {
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  left: 12.5%;
+  width: 25%;
+  height: 690px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  filter: drop-shadow(8px 8px 4px $lightPurpleColor);
+}
+
+.mediumImg {
+  background-size: cover;
+  clip-path: polygon(
+    10% 0,
+    90% 0,
+    100% 18.25%,
+    100% 81.75%,
+    90% 100%,
+    10% 100%,
+    0 81.75%,
+    0 18.25%
+  );
+  width: 365px;
+  height: 200px;
+  margin-right: 7px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+.restInfo {
+  margin-right: 15px;
+}

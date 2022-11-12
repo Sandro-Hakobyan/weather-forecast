@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "sources": [
+        "../../../Variables/variables.scss",
+        "texts.scss",
+        "texts.css"
+    ],
+    "names": [],
+    "mappings": "AAAQ,iGAAA;AACA,gGAAA;AACA,sFAAA;ACAR;EAGI,uCAAA;EACA,sBAAA;EACA,kBAAA;ACAJ;;ADGE;EACA,eAAA;EACA,sCDEM;ECDN,wCAAA;EACE,kBAAA;EACA,kBAAA;EACA,QAAA;EACA,SAAA;EACA,gCAAA;EACA,YAAA;ACAJ;;ADEE;EACE,yBDfe;ECgBf,YAAA;EACA,kBAAA;EACA,MAAA;EACA,OAAA;EACA,WAAA;EACA,YAAA;ACCJ",
+    "file": "texts.css"
+}

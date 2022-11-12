@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+.texts, .search {
+  width: 50%;
+  height: 1400px;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.texts {
+  -webkit-clip-path: polygon(0 0, 100% 200px, 100% 1300px, 0 1100px);
+          clip-path: polygon(0 0, 100% 200px, 100% 1300px, 0 1100px);
+}
+
+.search {
+  -webkit-clip-path: polygon(0 200px, 0 1300px, 100% 1100px, 100% 100px);
+          clip-path: polygon(0 200px, 0 1300px, 100% 1100px, 100% 100px);
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+.page2 {
+  position: absolute;
+  top: 1100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-clip-path: polygon(50% 200px, 100% 0, 100% 1000px, 50% 1200px, 0% 1000px, 0 0);
+          clip-path: polygon(50% 200px, 100% 0, 100% 1000px, 50% 1200px, 0% 1000px, 0 0);
+  height: 1200px;
+  background-color: #ca9ae4;
+  position: relative;
+}
+
+.imageDiv {
+  filter: drop-shadow(8px 8px 4px #5768d2);
+}
+
+.image1 {
+  position: absolute;
+  opacity: 0.9;
+  top: 250px;
+  left: 12.5%;
+  width: 37%;
+  height: 700px;
+  -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+          clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.sideText1 {
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  right: 12.5%;
+  width: 25%;
+  height: 690px;
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  filter: drop-shadow(8px 8px 4px #5768d2);
+}
+
+.info1Texts {
+  margin-top: 0 px;
+}
+
+.city {
+  font-family: "Overpass", sans-serif;
+  font-size: 42px;
+  color: rgb(1, 76, 142);
+  margin-bottom: 5px;
+}
+
+.data {
+  margin-top: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 28px;
+  color: #5768d2;
+  margin-bottom: 5px;
+}
+
+.sunny {
+  margin-top: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 20px;
+  color: #9992e0;
+}
+
+.smallImg {
+  background-size: cover;
+  -webkit-clip-path: polygon(15% 15%, 30% 0, 70% 0, 85% 15%, 85% 85%, 70% 100%, 30% 100%, 15% 85%);
+          clip-path: polygon(15% 15%, 30% 0, 70% 0, 85% 15%, 85% 85%, 70% 100%, 30% 100%, 15% 85%);
+  width: 300px;
+  height: 200px;
+  left: auto;
+}
+
+.smallImg,
+.info1Texts {
+  float: left;
+}
+
+.info1 {
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  font-size: 530%;
+  color: #5768d2;
+  position: absolute;
+  top: 130px;
+}
+
+.numberDegree {
+  height: 100%;
+  font-size: 800%;
+  color: rgb(1, 76, 142);
+  font-family: "Overpass", sans-serif;
+  height: 100%;
+  width: auto;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.info2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 150px;
+}
+
+.cf {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 275px;
+  top: 90px;
+  font-family: "Overpass", sans-serif;
+  padding-top: 15px;
+}
+
+.activeTemp {
+  font-size: 28px;
+  color: rgb(1, 76, 142);
+  margin-right: 10px;
+}
+
+.line {
+  font-size: 18px;
+  color: rgb(1, 76, 142);
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.passiveTemp {
+  font-size: 28px;
+  color: #9992e0;
+  cursor: pointer;
+}
+
+.info3 {
+  position: absolute;
+  bottom: 220px;
+  width: 360px;
+}
+
+.tdLeft {
+  width: 270px;
+  height: 30px;
+}
+
+.tdRight {
+  text-align: right;
+  width: 140px;
+}
+
+.tdLeft,
+.tdRight {
+  font-family: "Nunito", sans-serif;
+  color: #5768d2;
+}

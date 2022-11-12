@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "sources": [
+        "../../Variables/variables.scss",
+        "footer.scss",
+        "footer.css"
+    ],
+    "names": [],
+    "mappings": "AAAQ,iGAAA;AACA,gGAAA;AACA,sFAAA;ACAR;EACI,kBAAA;EAEA,OAAA;EACA,QAAA;EACA,SAAA;EACA,sFAAA;UAAA,8EAAA;EACA,aAAA;EACA,yBDHe;ECIf,iBAAA;ACCJ;;ADCA;EACI,sBDTY;ECUZ,sCDDI;ECEJ,eAAA;EACA,8CAAA;ACEJ;;ADAA;EACI,kBAAA;EACA,YAAA;EACA,WAAA;EACA,iBAAA;ACGJ;;ADDA;EACI,kBAAA;EACA,YAAA;EACA,UAAA;EACA,gBAAA;ACIJ",
+    "file": "footer.css"
+}
