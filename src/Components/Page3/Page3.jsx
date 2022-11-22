@@ -20,7 +20,7 @@ export default function Page3() {
     const urlData4 = (weatherData.results.length >= 4 ? weatherData.results[3].urls.raw : 'https://demofree.sirv.com/nope-not-here.jpg');
     return (
         <div className="page3">
-            <div className="imageDiv1">
+            <div className="imageDiv1"> 
                 <img alt="alt1" src={urlData3} className="image2" />
             </div>
             <div className="sideText2">
